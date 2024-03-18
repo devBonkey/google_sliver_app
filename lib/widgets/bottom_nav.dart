@@ -29,8 +29,6 @@ class _BottomNavState extends State<BottomNav> {
     return Scaffold(
       body: _pages.elementAt(_currentIndex),
       bottomNavigationBar: BottomNavigationBar(
-        elevation: 10,
-        backgroundColor: AppColors.white,
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
